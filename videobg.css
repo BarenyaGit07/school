@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #bbbbbb;
+  background: #fdfdfd;
 }
 
 /* video background */
@@ -729,21 +729,24 @@ body {
   font-family: "Roboto", sans-serif;
   color: #333333;
 }
-
-@media (min-width: 992px) {
-  .serviceBg__container {
-    max-width: 960px;
+/* 
+  @media (min-width: 576px) {
+    .serviceBg__container {
+      max-width: 540px;
+    }
   }
   @media (min-width: 768px) {
     .serviceBg__container {
       max-width: 720px;
     }
   }
-  @media (min-width: 576px) {
-    .serviceBg__container {
-      max-width: 540px;
-    }
-  }
+  
+@media (min-width: 992px) {
+  .serviceBg__container {
+    max-width: 960px;
+  } */
+
+ 
   .serviceBg__container {
     width: 100%;
     padding-right: 15px;
