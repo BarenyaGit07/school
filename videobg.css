@@ -1045,21 +1045,21 @@ span.eventH1 {
 
 /* styles for Extra small devices (phones)  */
 @media screen and (max-width: 576px) {
-  .our__achievement{
+  .our__achievement, .about__School__Title{
     font-size: 24px;
   }
 }
 
 /* styles for Small devices (tablets)  */
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .our__achievement{
+  .our__achievement, .about__School__Title{
     font-size: 28px;
   }
 }
 
 /* styles for Medium devices (desktops, laptops) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .our__achievement{
+  .our__achievement, .about__School__Title{
     font-size: 32px;
   }
 }
